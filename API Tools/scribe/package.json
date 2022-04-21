@@ -1,0 +1,14 @@
+{
+  "name": "scribe",
+  "version": "1.0.0",
+  "description": "Discord Weather Bot",
+  "main": "scribe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Borikhr",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
