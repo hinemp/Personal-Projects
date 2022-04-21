@@ -37,9 +37,12 @@ client.on('messageCreate', message => {
         case 'rank':
             client.commands.get('rank').execute(message, args, Discord);
             break;
+        case 'patch':
+            client.commands.get('patch').execute(message, args, Discord);
+            break;
         default:
             break;
     }
 });
 
-client.login('OTY2NDAzOTk3Njg0NjA5MDc0.YmBP2w.8fyccWQdhci4hwYjafdn9OQ_fh0');
+client.login('OTY2NDAzOTk3Njg0NjA5MDc0.YmBP2w.rwrrQI3-uPvWe5_BvLFfBRWnI30');
