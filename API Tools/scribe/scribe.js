@@ -40,12 +40,15 @@ client.on('messageCreate', message => {
         case 'patch':
             client.commands.get('patch').execute(message, args, Discord);
             break;
-        case 'lastfive':
+        case 'lf':
             client.commands.get('lastfive').execute(message, args, Discord);
+            break;
+        case 'carry':
+            client.commands.get('carry').execute(message, args, Discord);
             break;
         default:
             break;
     }
 });
 
-client.login('OTY2NDAzOTk3Njg0NjA5MDc0.YmBP2w.ws-L_tQPnKJlzyvXT5EKoE4KdAI');
+client.login('OTY2NDAzOTk3Njg0NjA5MDc0.YmBP2w._rTILN5ta2zFvxkQepjF_cJiXuY');
