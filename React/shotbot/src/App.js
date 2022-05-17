@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 import { Container, Row, Col, Form, FloatingLabel, Button, Badge } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import StatsCard from './StatsCard';
 
 const API_URL = 'https://api.henrikdev.xyz/valorant/v3/matches/na/'
 
@@ -90,6 +91,7 @@ function App() {
                     {games.map((game) => (
                       <GameCard key={game.key} game={game}/>
                     ))}
+                    <StatsCard games={games} />
                   </Row>
                 ) : (
                   <h2>Waiting for Games</h2>
