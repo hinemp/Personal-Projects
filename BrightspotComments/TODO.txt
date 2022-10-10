@@ -1,0 +1,7 @@
+Sunday October 9 ToDo List
+- Spend a good amt of the day building the article page
+  - Just rip off the most recent valorant patch notes for content
+- Get a rudimentary implementation of the comment system down
+  - All basic features (CRUD) should work
+
+https://www.youtube.com/watch?v=DO_wR1tx-O0&list=PLpPqplz6dKxUaZ630TY1BFIo5nP-_x-nL&index=3&ab_channel=PedroTech
